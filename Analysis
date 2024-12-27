@@ -1,0 +1,23 @@
+Key Objectives:
+Perform exploratory data analysis (EDA) on a vehicle dataset.
+Clean and preprocess the dataset to ensure accuracy and usability.
+Visualize key trends such as price distribution, top manufacturers, and correlations.
+Build and evaluate a predictive model to estimate car prices.
+Key Features:
+Data Cleaning:
+
+Removed rows with missing values in critical columns (price, year, odometer).
+Handled missing values in non-critical columns (model) by filling with "Unknown".
+Filtered unrealistic prices (e.g., below $500 or above $200,000).
+Standardized text fields for consistency.
+Exploratory Data Analysis (EDA):
+
+Distribution of car prices.
+Top car manufacturers based on the number of listings.
+Scatter plot for analyzing mileage vs. price.
+Average car price by state and fuel type.
+Correlation heatmap between numerical variables.
+Predictive Modeling:
+
+Built a simple linear regression model using year and odometer as features.
+Evaluated the model using Mean Absolute Error (MAE).
